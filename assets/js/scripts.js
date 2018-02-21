@@ -1,10 +1,4 @@
 /*
-Theme Name: IAMX
-Author: Ahmed Faruk
-Author URL: farukahmed.com
-*/
-
-/*
     = Preloader
     = Animated scrolling / Scroll Up
     = Full Screen Slider
@@ -122,7 +116,7 @@ jQuery(function ($) {
     // -------------------------------------------------------------
     // Progress Bar
     // -------------------------------------------------------------
- 
+
     $('.skill-progress').bind('inview', function(event, visible, visiblePartX, visiblePartY) {
         if (visible) {
             $.each($('div.progress-bar'),function(){
@@ -131,7 +125,7 @@ jQuery(function ($) {
             $(this).unbind('inview');
         }
     });
-    
+
     // -------------------------------------------------------------
     // More skill
     // -------------------------------------------------------------
@@ -221,9 +215,9 @@ jQuery(function ($) {
     // Vidio auto play
     // -------------------------------------------------------------
     (function () {
-    
+
     /* Vimeo API: http://developer.vimeo.com/player/js-api */
-    
+
         var iframe = document.getElementById('nofocusvideo');
         // $f == Froogaloop
         var player = $f(iframe);
@@ -247,7 +241,7 @@ jQuery(function ($) {
     $(window).load(function() {
 
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-         
+
         }else {
             $.stellar({
                 horizontalScrolling: false,
@@ -343,8 +337,3 @@ jQuery(function ($) {
 
 
 });
-
-
-
-
-
